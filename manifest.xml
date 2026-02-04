@@ -8,14 +8,11 @@
 
   <Id>d6ff5248-95b4-4400-8f5d-4ce60c4ed0be</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Din Organisation</ProviderName>
+  <ProviderName>KOMBIT</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
 
   <DisplayName DefaultValue="Meeting Template"/>
   <Description DefaultValue="Automatic meeting template insertion"/>
-  <IconUrl DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net"/>
 
   <AppDomains>
     <AppDomain>https://icy-hill-0716f1a03.1.azurestaticapps.net</AppDomain>
@@ -92,9 +89,9 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/item-types/16/docset.svg"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/item-types/32/docset.svg"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://static2.sharepointonline.com/files/fabric/assets/item-types/96/docset.svg"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Commands.Url" DefaultValue="https://icy-hill-0716f1a03.1.azurestaticapps.net/commands.html"/>
