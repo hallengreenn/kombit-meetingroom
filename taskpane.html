@@ -56,15 +56,24 @@
             background-color: #0078d4;
             color: white;
             border: none;
-            padding: 10px 20px;
-            border-radius: 2px;
+            padding: 20px 20px;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 16px;
+            font-weight: bold;
             width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            animation: pulse 2s infinite;
         }
 
         button:hover {
             background-color: #106ebe;
+            transform: scale(1.02);
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 4px 8px rgba(0,120,212,0.3); }
+            50% { box-shadow: 0 4px 20px rgba(0,120,212,0.6); }
         }
 
         .info {
@@ -99,12 +108,14 @@
         <p>Tid til spørgsmål eller andre punkter.</p>
     </div>
 
-    <button onclick="insertTemplate()">Indsæt Skabelon</button>
+    <button onclick="insertTemplate()">👆 KLIK HER - Indsæt Møde Skabelon</button>
 
     <div class="info">
-        <strong>ℹ️ Automatisk indsættelse</strong><br>
-        Skabelonen indsættes automatisk når du opretter en ny mødeaftale.
-        Du kan også bruge denne knap til at indsætte den manuelt.
+        <strong>💡 Sådan bruger du skabelonen:</strong><br>
+        1. Opret en ny mødeaftale<br>
+        2. Klik på "Meeting Template" i ribbon<br>
+        3. Klik på knappen ovenfor<br>
+        4. Skabelonen indsættes i mødet!
     </div>
 
     <script src="taskpane.js"></script>
